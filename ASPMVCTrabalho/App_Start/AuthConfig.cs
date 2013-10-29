@@ -26,6 +26,7 @@ namespace ASPMVCTrabalho
             //    appId: "",
             //    appSecret: "");
 
+            //Test
             OAuthWebSecurity.RegisterGoogleClient();
         }
     }
