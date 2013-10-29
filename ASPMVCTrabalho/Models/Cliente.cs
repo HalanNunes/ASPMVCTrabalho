@@ -26,6 +26,7 @@ namespace MvcApplication1.Models
 
         [Column("CD_SEXO")]
         [Required]
+        [RegularExpression("F|M")]
         public char Sexo { get; set; }
 
         [Column("VL_SALDO_CREDITO")]
